@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 1rem;
+}
+
+.bc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  clear: both;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.bc > *:not(:last-child) {
+  opacity: .8;
+}
+
+.bc > *:not(:last-child)::after {
+  content: '/';
+  margin: 0 .5rem;
+}
+
+

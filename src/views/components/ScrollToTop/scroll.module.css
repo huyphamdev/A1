@@ -1,0 +1,24 @@
+.button {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  padding: .5rem;
+  cursor: pointer;
+  border-radius: .5rem;
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 2rem;
+  line-height: 1;
+  opacity: .8;
+  -webkit-transition: all ease-in-out 100ms;
+  -o-transition: all ease-in-out 100ms;
+  transition: all ease-in-out 100ms;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+}

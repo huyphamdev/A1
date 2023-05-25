@@ -1,0 +1,12 @@
+.toggle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: .5rem;
+  border: 1px solid white;
+  border-radius: .3rem;
+  line-height: 1;
+  font-size: 1.2rem;
+}
+
+.toggle svg * {
+  stroke: white;
+}

@@ -1,0 +1,72 @@
+.title {
+  padding: 2rem 0;
+  font-size: 2rem;
+  color: var(--title-color);
+}
+
+.select {
+  display: block;
+  color: #000;
+}
+
+.select > div {
+  display: inline-block;
+  width: 20rem;
+}
+
+.select > div:nth-child(1) {
+  width: 10rem;
+  margin-right: 1rem;
+}
+
+.list-item {
+  margin: 2rem 0;
+  display: grid;
+  gap: .8rem;
+}
+
+.list-item > li {
+  padding: 1rem;
+}
+
+.list-item p {
+  text-align: justify;
+}
+
+.item-image {
+  flex-grow: 0;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1rem;
+}
+
+.item-image > img {
+  width: 8rem;
+  height: auto;
+}
+
+.item-title {
+  margin: .5rem 0;
+}
+
+.label {
+  font-weight: 600;
+  color: var(--title-color);
+  opacity: .9;
+}
+
+.bookmark {
+  font-size: .9rem;
+  padding-left: .5rem;
+  color: var(--secondary-color);
+}
+
+@media (min-width: 992px) {
+  .list-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .title {
+    font-size: 3rem;
+  }
+  
+}
